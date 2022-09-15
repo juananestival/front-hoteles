@@ -20,17 +20,17 @@ const styles = {
 };
 
 const handleMakeOutboundCall = event => {
-  event.preventDefault()
-  axios.post(
-    'https://aibufzstb2.execute-api.eu-central-1.amazonaws.com/prod/items', 
-    {
-      "phoneNumber":"+34699440094",
-      "name":"Juan Estival",
-      "emailAddress":"juaestiv@amazon.com"
-    }
-  ).then(res=>{
-    console.log('Success making Outbound Call')
-  })
+  //event.preventDefault()
+  //axios.post(
+  //  'https://aibufzstb2.execute-api.eu-central-1.amazonaws.com/prod/items', 
+  //  {
+  //    "phoneNumber":"+34699440094",
+  //    "name":"Juan Estival",
+  //    "emailAddress":"juaestiv@amazon.com"
+  //  }
+  //).then(res=>{
+  //  console.log('Success making Outbound Call')
+  //})
 }
 
 function App() {
