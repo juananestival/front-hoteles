@@ -48,8 +48,8 @@ function App() {
             <Col className="py-6">
               {/* customize here */}
               <h1 className="mt-6">Chat</h1>
-              <p> ¡Prueba nuestro servicio de chat personalizado!</p>
-              <Button onClick={e=>handleMakeOutboundCall(e)}>¡ Te llamamos !</Button>
+              <p> Prova el nostre servei de xat personalitzat!</p>
+              <Button onClick={e=>handleMakeOutboundCall(e)}>¡Et truquem !</Button>
             </Col>
           </Row>
         </Container>

@@ -4,7 +4,7 @@ const products = [
     name: 'Barcelona',
     image: '/images/barcelona.jpeg',
     description:
-      'Barcelona ha sido escenario de diversos acontecimientos internacionales que han contribuido a consolidarla, desarrollarla y darle proyección mundial. Los más relevantes han sido la Exposición Universal de 1888, la Exposición Internacional de 1929, los Juegos Olímpicos de 1992 y el Fórum Universal de las Culturas 2004. Es también sede del secretariado de la Unión para el Mediterráneo',
+      'Barcelona és una ciutat que atreu molts turistes, sobretot a partir del Jocs Olímpics que shi van celebrar el 1992. La xifra rècord en nombre de visitants anuals es va registrar el 2019, amb 11.977.277 turistes i prop de 33 milions de pernoctacions en hotels i pisos turístics, comptant-hi només allotjaments oficials',
     brand: 'Cymbal',
     category: 'Electronics',
     price: 249.99,
@@ -15,10 +15,10 @@ const products = [
 
   {
     _id:'2',
-    name: 'Alicante',
+    name: 'Alacant',
     image: '/images/alicante.jpeg',
     description:
-      'Qué ver y hacer, los lugares que no te puedes perder. Subir al Castillo de Santa Bárbara.Excursiones en Barco a la Isla de Tabarca. Conocer pueblos bonitos de la Costa Blanca.',
+      'Situada a la costa mediterrània, té una població de 337.304 habitants (2021) i forma una conurbació de més de 452.462 habitants amb diverses localitats properes com Sant Vicent del Raspeig, Sant Joan dAlacant, Mutxamel i el Campello. Estadísticament sassocia també a làrea metropolitana dAlacant-Elx, que té 757.443 habitants.',
     brand: 'Cymbal',
     category: 'Electronics',
     price: 199.99,
@@ -31,7 +31,7 @@ const products = [
     name: 'Tenerife',
     image: '/images/tenerife.jpeg',
     description:
-      'Tenerife es la más grande de las islas Canarias de España, frente a África Occidental. La domina el monte Teide, un volcán inactivo que es la cima más alta de España. Tenerife es mejor conocida por el Carnaval de Santa Cruz, un enorme festival previo a la Cuaresma con desfiles, música, danza y trajes coloridos',
+      'De gran importància és el Carnaval de Santa Cruz de Tenerife, declarat Festa d Interès Turístic Internacional i considerat com un dels de més rellevància a nivell mundial',
     brand: 'Cymbal',
     category: 'Electronics',
     price: 329.99,
@@ -44,7 +44,7 @@ const products = [
     name: 'Madrid',
     image: '/images/Madrid.jpeg',
     description:
-      'Los orígenes de la ciudad son objeto de revisión histórica tras hallazgos de enterramientos visigodos, que han venido a confirmar que el posterior asentamiento fortificado musulmán de Maǧrīţ (del siglo ix) se había asentado sobre un vicus visigodo del siglo vii llamado Matrice o matriz',
+      'Madrid també és un dels centres culturals més importants d Europa i del món, i acull tres museus de referència internacional: el Museu del Prado, el Museu Thyssen-Bornemisza i el Museu Reina Sofia.',
     brand: 'Cymbal',
     category: 'Electronics',
     price: 299.99,
@@ -57,7 +57,7 @@ const products = [
     name: 'Mallorca',
     image: '/images/mallorca.jpeg',
     description:
-      'El relieve mallorquín está formado por la sierra de Tramontana, con las montañas más altas, la sierra de Levante, con alturas más modestas, y otros montes menores. La sierra de Tramontana, al noroeste, forma acantilados y calas rocosas que contrastan con las playas de arena del resto del litoral.',
+      'Mallorca és una illa de la Mediterrània, la més gran de les Illes Balears[1] —per això també s anomena la Balear Major—, i és lloc d origen dels mallorquins i les mallorquines',
     brand: 'Cymbal',
     category: 'Electronics',
     price: 349.99,
@@ -70,7 +70,7 @@ const products = [
     name: 'Benidorm',
     image: '/images/benidorm.jpeg',
     description:
-      'Balneario costero en la costa este de España, parte de la famosa Costa Blanca de la región de Valencia. Fue una pequeña villa pesquera hasta la década de 1960 y actualmente es un popular destino vacacional mediterráneo famoso por su vida nocturna. Sus dos amplias playas de arena, la playa de Levante y la playa Poniente, están bordeadas de paseos costeros con palmeras, bares y filas de rascacielos',
+      'Coneguda arreu per les seues platges, gratacels i ambient nocturn i per ser una destinació turística de gents  arreu d Europa.',
     brand: 'Cymbal',
     category: 'Electronics',
     price: 189.99,
