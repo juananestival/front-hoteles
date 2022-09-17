@@ -42,7 +42,7 @@ const products = [
   {
     _id:'4',
     name: 'Madrid',
-    image: '/images/Madrid.jpeg',
+    image: '/images/madrid.jpeg',
     description:
       'Madrid també és un dels centres culturals més importants d Europa i del món, i acull tres museus de referència internacional: el Museu del Prado, el Museu Thyssen-Bornemisza i el Museu Reina Sofia.',
     brand: 'Cymbal',
