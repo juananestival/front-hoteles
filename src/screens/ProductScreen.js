@@ -6,32 +6,32 @@ import products from '../products'
 
 
 const ProductScreen = ({ match }) => {
-    const prodcut = products.find(p=>p._id === match.params.id)
+    const product = products.find(p=>p._id === match.params.id)
     return (
         <>
         <Link className='btn btn-light my-3' to='/'>Go Back</Link>
         <Row>
             <Col md={6}>
-                <Image src={prodcut.image} alt={prodcut.name} fluid></Image>
+                <Image src={product.image} alt={product.name} fluid></Image>
 
             </Col>
             <Col md={3}>
                 <ListGroup variant='flush'>
                     <ListGroup.Item>
                         <h3>
-                            {prodcut.name}
+                            {product.name}
                         </h3>
 
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <Rating value={prodcut.rating} text={`${prodcut.numReviews} reviews` }></Rating>
+                        <Rating value={product.rating} text={`${product.numReviews} reviews` }></Rating>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        Price: ${prodcut.price}
+                        Price: ${product.price}
 
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        Description: {prodcut.description}
+                        Description: {product.description}
 
                     </ListGroup.Item>
 
@@ -47,7 +47,7 @@ const ProductScreen = ({ match }) => {
                             Price:
                             </Col>
                             <Col>
-                            <strong>${prodcut.price}</strong>
+                            <strong>${product.price}</strong>
                             </Col>
                         </Row>
                     </ListGroup.Item>
@@ -58,12 +58,12 @@ const ProductScreen = ({ match }) => {
                             Status:
                             </Col>
                             <Col>
-                            {prodcut.countInStock > 0 ? 'In Stock' : 'Out Of Stock'}
+                            {product.countInStock > 0 ? 'In Stock' : 'Out Of Stock'}
                             </Col>
                         </Row>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <Button className='btn-block' type='button' disable={prodcut.countInStock === 0}>
+                        <Button className='btn-block' type='button' disable={product.countInStock === 0}>
                             Add To Cart
 
                         </Button>

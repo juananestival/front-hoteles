@@ -5,11 +5,13 @@ import { Row, Col } from "react-bootstrap";
 import Product from "../components/Product";
 
 const HomeScreen = () => {
+  const productsLocalized = products.filter(p=>p.lang === localStorage.getItem('i18nextLng'))
+  console.log(productsLocalized)
   return (
     <>
       <h1>Top Destinacions</h1>
       <Row>
-        {products.map((product) => (
+        {productsLocalized.map((product) => (
           <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
             <Product product={product} />
             {/* <h3>{product.name}</h3> */}
