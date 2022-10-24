@@ -46,7 +46,7 @@ const products = [
     _id:'4',
     lang:'ca',
     name: 'Madrid',
-    image: '/images/madrid.jpeg',
+    image: '/images/madrid1.jpeg',
     description:
       'Madrid també és un dels centres culturals més importants d Europa i del món, i acull tres museus de referència internacional: el Museu del Prado, el Museu Thyssen-Bornemisza i el Museu Reina Sofia.',
     brand: 'Cymbal',
@@ -131,7 +131,7 @@ const products = [
     _id:'10',
     lang:'es',
     name: 'Madrid',
-    image: '/images/Madrid.jpeg',
+    image: '/images/madrid1.jpeg',
     description:
       'Los orígenes de la ciudad son objeto de revisión histórica tras hallazgos de enterramientos visigodos, que han venido a confirmar que el posterior asentamiento fortificado musulmán de Maǧrīţ (del siglo ix) se había asentado sobre un vicus visigodo del siglo vii llamado Matrice o matriz',
     brand: 'Cymbal',
@@ -215,7 +215,7 @@ const products = [
     _id:'16',
     lang:'en',
     name: 'Madrid',
-    image: '/images/Madrid.jpeg',
+    image: '/images/madrid1.jpeg',
     description:
     'The origins of the city are the subject of historical review after discoveries of Visigothic burials, which have confirmed that the later fortified Muslim settlement of Maǧrīţ (from the 9th century) had been based on a Visigothic vicus from the 7th century called Matrice or matrix' ,    
     brand: 'Cymbal',
