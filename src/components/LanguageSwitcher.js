@@ -33,10 +33,10 @@ const LanguajeSwitcher = (lang) => {
     <>
       <NavDropdown title={i18n.resolvedLanguage} id="basic-nav-dropdown">
         <NavDropdown.Item onClick={()=>{
-          i18n.changeLanguage("en")
-          handleClick("en") 
+          i18n.changeLanguage("es")
+          handleClick("es") 
         }} >
-          EN
+          ES
         </NavDropdown.Item>
         <NavDropdown.Item onClick={()=>(i18n.changeLanguage("fr"))} >
           FR
@@ -49,10 +49,10 @@ const LanguajeSwitcher = (lang) => {
         </NavDropdown.Item>
         <NavDropdown.Item onClick={()=> {
           
-          i18n.changeLanguage("es")
-          handleClick("es") }}
+          i18n.changeLanguage("en")
+          handleClick("en") }}
            >
-          ES
+          EN
         </NavDropdown.Item>
         <NavDropdown.Item onClick={()=>{i18n.changeLanguage("ca")
         handleClick("ca") 
